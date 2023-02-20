@@ -17,14 +17,6 @@ body{
     align-items: center;
 }
 
-a{
-    color: white;
-    text-decoration-line: none;
-    font-size: 20px;
-    background-color: #E3295D;
-    border-radius: 50%;
-}
-
 .home{
     width: 30px;
     height: 30px;
@@ -32,6 +24,14 @@ a{
     background-color: #E3295D;
     box-shadow: -1px 1px 0px 1px rgba(0, 0, 0, 0.50);
     border: 0.5px solid black;
+}
+
+a{
+    color: white;
+    text-decoration-line: none;
+    font-size: 20px;
+    background-color: #E3295D;
+    border-radius: 50%;
 }
 
 .container{
