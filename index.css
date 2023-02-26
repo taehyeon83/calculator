@@ -1,115 +1,115 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Orbitron', sans-serif;
-    background-color: #EA85B2;
-    /* background-image: url(img/bimogif.gif); */
-    background-repeat:repeat;
-    background-position: -1%;
-    font-size: 24px;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  font-family: "Orbitron", sans-serif;
+  background-color: #ea85b2;
+  /* background-image: url(img/bimogif.gif); */ /*배경비모! */
+  background-repeat: repeat;
+  background-position: -1%;
+  font-size: 24px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.home{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #E3295D;
-    box-shadow: -1px 1px 0px 1px rgba(0, 0, 0, 0.50);
-    border: 0.5px solid black;
+.home {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #e3295d;
+  box-shadow: -1px 1px 0px 1px rgba(0, 0, 0, 0.5);
+  border: 0.5px solid black;
 }
 
-a{
-    color: white;
-    text-decoration-line: none;
-    font-size: 20px;
-    background-color: #E3295D;
-    border-radius: 50%;
+a {
+  color: white;
+  text-decoration-line: none;
+  font-size: 20px;
+  background-color: #e3295d;
+  border-radius: 50%;
 }
 
-.container{
-    width: 400px;
-    height:  600px;
-    padding: 20px 35px 35px 35px;
-    border-radius: 10%;
-    background-color: #20AD9C;
-    font-weight: bold;
-    border: 3px solid black;
-    box-shadow: -35px 35px 2px -5px rgba(0, 0, 0, 0.5);
+.container {
+  width: 400px;
+  height: 600px;
+  padding: 20px 35px 35px 35px;
+  border-radius: 10%;
+  background-color: #20ad9c;
+  font-weight: bold;
+  border: 3px solid black;
+  box-shadow: -35px 35px 2px -5px rgba(0, 0, 0, 0.5);
 }
 
-.calculator__display--for-advanced{
-    padding-right: 15px; 
-    color: black;
-    height: 140px;
-    width: 100%;
-    text-align: right;
-    vertical-align: middle;
-    border-radius: 20px;
-    font-size: 55px;
-    margin-top: 15px;
-    margin-bottom: 15px;;
-    border: 2px solid black;
-    box-shadow: -1px 1px 0px 1px rgba(0, 0, 0, 0.50);
-    background-color: #B7DFC5;
+.calculator__display--for-advanced {
+  padding-right: 15px;
+  color: black;
+  height: 140px;
+  width: 100%;
+  text-align: right;
+  vertical-align: middle;
+  border-radius: 20px;
+  font-size: 55px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  box-shadow: -1px 1px 0px 1px rgba(0, 0, 0, 0.5);
+  background-color: #b7dfc5;
 }
 
-.calculator__buttons{
-    background-color: #20AD9C;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
+.calculator__buttons {
+  background-color: #20ad9c;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
 }
 
-.button{
-    color: white;
-    border: whitesmoke;
-    font-size: 80%;
-    font-weight: bold;
-    box-shadow: -1px 1px 0px 1px rgba(0, 0, 0, 0.50);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #04467F;
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    border: 0.5px solid black;
+.button {
+  color: white;
+  border: whitesmoke;
+  font-size: 80%;
+  font-weight: bold;
+  box-shadow: -1px 1px 0px 1px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #04467f;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 0.5px solid black;
 }
 
 .home:active {
-    transform: translatey(5px);
-    box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
-  }
-  
+  transform: translatey(5px);
+  box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
 .home:active {
-    transform: translatey(5px);
-    box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
-  }
+  transform: translatey(5px);
+  box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
 
 .button:active {
-    transform: translatey(5px);
-    box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
-  }
-.clear{
-    background-color: #41a550;
+  transform: translatey(5px);
+  box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+.clear {
+  background-color: #41a550;
 }
 
-.top{
-    background-color: #d9b240;
+.top {
+  background-color: #d9b240;
 }
 
-.operator{
-    background-color: #52C0D8;
+.operator {
+  background-color: #52c0d8;
 }
 
-.calculate{
-    background-color: #E3295D;
+.calculate {
+  background-color: #e3295d;
 }
